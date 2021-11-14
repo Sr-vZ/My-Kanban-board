@@ -1,8 +1,20 @@
 <div class="card p-0" draggable="true">
-    <div class=" card-header bg-secondary text-white" id="title" aria-placeholder="Task Title" contenteditable="true"></div>
+    <!-- <div class=" card-header bg-secondary text-white" id="title" type='text' placeholder="Task Title"
+        contenteditable="true">
+        
+    </div> -->
+    <div class="input-group card-header bg-secondary">
+        <input type="text" class="form-control" placeholder="Task Title"
+            aria-label="Task Title">
+
+        <button class="btn btn-outline-light" type="button"><i class="las la-edit"></i></button>
+        <button class="btn btn-outline-light" type="button"><i class="la-lg las la-save"></i></button>
+        <button class="btn btn-outline-light" type="button"><i class="la-lg las la-trash"></i></button>
+    </div>
     <div class="card-body">
         <!-- <h5 class="card-title">Primary card title</h5> -->
-        <p class="card-text" id="desc" aria-placeholder="Task description" contenteditable="true">Some quick example text to build on the card title and make up the bulk of
-            the card's content.</p>
+        <input type="text" class="form-control" placeholder="Task Title"
+            aria-label="Task Title">
+        <p class="card-text" id="desc" aria-placeholder="Task description"></p>
     </div>
 </div>
